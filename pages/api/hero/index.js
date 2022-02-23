@@ -1,6 +1,6 @@
-import dbConnect from '../../../db/dbconnect'
+import dbConnect from '../db/dbConnect.js'
 
-import Hero from '../../../models/Hero'
+import Hero from '../models/Hero'
 
 dbConnect()
 

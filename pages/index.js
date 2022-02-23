@@ -18,6 +18,7 @@ const index = ({ heros }) => {
             <MDBCard
               className="border boder-2 my-2"
               style={{ maxWidth: "22rem" }}
+              key={hero._id}
             >
               <MDBCardBody>
                 <MDBCardTitle>{hero.superHero}</MDBCardTitle>
